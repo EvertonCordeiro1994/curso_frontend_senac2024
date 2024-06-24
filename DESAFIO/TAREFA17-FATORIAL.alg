@@ -23,7 +23,7 @@ inicio
         
         fatorial <- numero - contador
         contador <- contador + 1
-        soma <- calc + atualizar
+        soma <- contador * fatorial  
 
         se (fatorial >= 2 ) entao
             escreva(fatorial,"*")
@@ -31,7 +31,6 @@ inicio
             escreva(fatorial)
         fimse
 
-        calc <- contador * fatorial    
         atualizar <- soma
     
         
