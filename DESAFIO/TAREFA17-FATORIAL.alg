@@ -1,41 +1,30 @@
-algoritmo "Fatorial"
+Algoritmo "Fatorial"
 
-var
+Var
+    numero, fatorial, contador, resultado: inteiro
 
-    numero,fatorial,contador,soma,atualizar,calc: inteiro
-
-inicio
-
+Inicio
     escreval("Digite um número inteiro: ")
-    leia(numero)
+    Leia(numero)
 
+    resultado <- 1
+    fatorial <- numero
+    contador <- 1
 
-        calc <- numero
-        soma <- 0
-        atualizar <- 0
+    Escreva(numero, "! = ")
 
-    escreval("SEU FATORIAL É: ")
+    Repita
+        resultado <- resultado * fatorial
+        Se fatorial > 1 Entao
+            Escreva(fatorial, " * ")
+        Senao
+            Escreva(fatorial)
+        FimSe
+        fatorial <- fatorial - 1
 
-
-    
-
-    repita
-        
-        fatorial <- numero - contador
         contador <- contador + 1
-        soma <- contador * fatorial  
+    Ate contador > numero
 
-        se (fatorial >= 2 ) entao
-            escreva(fatorial,"*")
-        senao
-            escreva(fatorial)
-        fimse
+    Escreval(" = ", resultado)
 
-        atualizar <- soma
-    
-        
-    ate fatorial = 1
-
-    escreval(" = ",soma)
-
-fimalgoritmo
+FimAlgoritmo
