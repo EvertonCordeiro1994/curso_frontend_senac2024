@@ -1,0 +1,50 @@
+INICIO
+
+Fazer lista de ingredientes necessários
+
+Quem consumirá possui alguma restrição alimentar?
+SIM - Qual - Não incluir na lista de ingredientes
+NÃO - Continuar
+
+Comprar lista de ingredientes
+
+O feijão será comprado em feira ou em supermercado?
+FEIRA - Escolher feijão
+SUPERMERCADO - Continuar
+
+Separar quantidades necessárias de cada ingrediente
+
+Lavar feijão
+
+Deixar feijão de molho por no mínimo 8 horas
+
+Lavar feijão
+
+Colocar feijão na panela de pressão com água até cobrir todo feijão
+
+Cozinhar por 15 minutos
+
+Separar utensílios(faca, tábua de corte)
+
+Cortar cebola e alho
+
+Em outra panela refogar com óleo a cebola e o alho
+
+Adicionar a cebola e um pouco do caldo
+
+Temperar com orégano, sal, tomilho e louro.
+
+Cozinhar até o caldo engrossar um pouco mais
+
+Provar
+
+Está bem temperado?
+
+SIM - Continuar
+NÃO - Temperar mais
+
+Desligar o fogão e servir
+
+FIM
+
+
