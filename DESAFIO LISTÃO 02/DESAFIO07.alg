@@ -1,48 +1,31 @@
-algoritmo "Imprimir escrito por extenso"
-
-
+algoritmo "Soma de números positivos"
 
 var
+   numero_usuario, soma: inteiro
+
+funcao Soma(): inteiro
+inicio
+   soma <- 0
+   repita
+      limpatela
+      escreval("**************************")
+      escreval("Digite um número positivo")
+       escreval("(ou um número negativo para sair): ")
+      escreval("**************************")
+      leia(numero_usuario)
+      se numero_usuario >= 0 entao
+         soma <- soma + numero_usuario
+      fimse
+   ate numero_usuario < 0
+
+   retorne soma
+fimfuncao
 
 
-
-numero_usuario,resultado: inteiro
-
-funcao Soma(resultado:inteiro):inteiro
-    inicio
-        
-        se (numero_usuario >= 0 ) entao    
-            resultado <- numero_usuario
-
-        fimse
-
-        resultado <- resultado + numero_usuario
-
-       
-        retorne resultado
-    fimfuncao 
 
 
 inicio
-
-    
-
-    repita
-        limpatela
-        escreval("Digite um número positivo: ")
-        leia(numero_usuario)
-        Soma(numero_usuario)
-
-    ate numero_usuario < 0
-
-    escreval ("A soma dos números é igual a : ", Soma(resultado) )
-
-
+   soma <- Soma()
+   limpatela
+   escreval("A soma dos números positivos é igual a: ", soma)
 fimalgoritmo
-
-
-
-
-
-
-// 7)	Crie uma função que leia um número não determinado de valores positivos e calcule a soma desses números. A função deve parar de ler números quando um número negativo for digitado e retornar a soma dos números lidos.

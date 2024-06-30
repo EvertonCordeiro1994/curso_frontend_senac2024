@@ -9,7 +9,7 @@ inicio
 
    Para contador <-  1 ate 6 passo 1 faca
 
-      EscrevaL ("Digite um número inteiro: ")
+      EscrevaL ("Digite um nÃºmero inteiro: ")
       Leia(numero)
 
       se (numero >=0) e (numero <=10) entao
@@ -19,6 +19,6 @@ inicio
    FimPara
 
 
-   EscrevaL("A quantidade de números digitados entre 0 e 10 são: ", total)
+   EscrevaL("A quantidade de nï¿½meros digitados entre 0 e 10 sï¿½o: ", total)
 
 fimalgoritmo
